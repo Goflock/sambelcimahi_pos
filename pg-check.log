@@ -1,0 +1,6 @@
+ls: cannot access '/tmp/.s.PGSQL.*': No such file or directory
+Linux version 6.18.10-200.fc43.x86_64 (mockbuild@bec669e2407a45e7885294d0b7351b99) (gcc (GCC) 15.2.1 20260123 (Red Hat 15.2.1-7), GNU ld version 2.45.1-4.fc43) #1 SMP PREEMPT_DYNAMIC Wed Feb 11 17:20:05 UTC 2026
+os:
+NAME="Fedora Linux"
+VERSION="43 (Workstation Edition)"
+RELEASE_TYPE=stable

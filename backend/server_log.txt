@@ -1,0 +1,775 @@
+
+> cimahi-pos-backend@1.0.0 start:dev
+> nest start --watch
+
+[2J[3J[H[[90m12:42:13 AM[0m] Starting compilation in watch mode...
+
+[[90m12:42:19 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +39ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCategoriesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mStocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mReportsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mKitchenModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBrandsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUnitsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWarehousesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTaxesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCurrenciesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCustomersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscountsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRolesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mExpensesModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[WebSocketsController] [39m[32mKitchenGateway subscribed to the "ping" message[39m[38;5;3m +94ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +2ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/validate, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/me, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/me, PATCH} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCategoriesController {/api/categories}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/categories, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/categories/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/api/products}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/available, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mStocksController {/api/stocks}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/stocks/adjust, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/stocks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/stocks/low, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/stocks/movements, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/stocks/:productId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/api/orders}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/orders, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/orders, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/orders/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/orders/:id/complete, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/orders/:id/cancel, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mKitchenController {/api/kitchen}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/kitchen/orders, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/kitchen/orders/completed, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/kitchen/orders/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/kitchen/orders/:id/status, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mReportsController {/api/reports}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/reports/sales/daily, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/reports/sales/monthly, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/reports/products/best-selling, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/reports/stocks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/reports/financial-summary, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mSettingsController {/api/settings}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/settings, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/settings, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/settings/upload-logo, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mBrandsController {/api/brands}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/brands, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/brands, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/brands/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/brands/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/brands/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUnitsController {/api/units}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/units, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/units, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/units/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/units/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/units/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mWarehousesController {/api/warehouses}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/warehouses, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/warehouses, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/warehouses/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/warehouses/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/warehouses/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mTaxesController {/api/taxes}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/taxes, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/taxes, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/taxes/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/taxes/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/taxes/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCurrenciesController {/api/currencies}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/currencies, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/currencies, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/currencies/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/currencies/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/currencies/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCustomersController {/api/customers}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/customers, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/customers, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/customers/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/customers/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/customers/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCustomerGroupsController {/api/customer-groups}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/customer-groups, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/customer-groups, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/customer-groups/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/customer-groups/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/customer-groups/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDiscountsController {/api/discounts}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/discounts, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/discounts, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/discounts/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/discounts/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/discounts/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mRolesController {/api/roles}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/roles, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/roles, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/roles/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/roles/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/roles/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPermissionsController {/api/permissions}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/permissions, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/permissions, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/permissions/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/permissions/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/permissions/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mExpensesController {/api/expenses}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/expenses, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/expenses, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/expenses/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/expenses/:id, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:20 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/expenses/:id, DELETE} route[39m[38;5;3m +0ms[39m
+✅ Database connected
+[32m[Nest] 12900  - [39m02/27/2026, 12:42:21 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +47ms[39m
+🚀 Application is running on: http://localhost:3000
+📚 API Documentation: http://localhost:3000/docs
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 300,
+  "unit": "pcs",
+  "minStock": 5,
+  "name": "Ayam Bakar",
+  "description": "",
+  "price": 15000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/gZ9vDN7Z/ayambakar.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 300,
+  "unit": "pcs",
+  "minStock": 5,
+  "name": "Ayam Kampung Goreng",
+  "description": "",
+  "price": 25000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/jZWGTtsb/ayamkampung.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 300,
+  "unit": "porsi",
+  "minStock": 5,
+  "name": "Nasi Boboko",
+  "description": "",
+  "price": 50000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/60HhNGbz/bakul.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 300,
+  "unit": "porsi",
+  "minStock": 5,
+  "name": "Bakwan Jagung & Tempe",
+  "description": "",
+  "price": 10000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/2089fVQ3/bakwantempe.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 300,
+  "unit": "porsi",
+  "minStock": 5,
+  "name": "Cumi Asin",
+  "description": "",
+  "price": 15000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/rRVjq0Rs/cumiasin.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 300,
+  "unit": "pcs",
+  "minStock": 5,
+  "name": "Ikan Kembung Bakar",
+  "description": "",
+  "price": 15000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/LhBXh4WM/ikankembungbakar.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 300,
+  "unit": "pcs",
+  "minStock": 5,
+  "name": "Ikan Mas Acar",
+  "description": "",
+  "price": 15000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/qLKPd46H/ikanmasacar.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 300,
+  "unit": "pcs",
+  "minStock": 5,
+  "name": "Ikan Nila Bakar",
+  "description": "",
+  "price": 15000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/FbFQ98BM/ikannilabakar.jpg"
+}
+GET /products called
+Creating Order Payload: {
+  "localId": "e70f6191-cd2c-45a7-82da-8a246317d3f5",
+  "customerName": "Walk-in Customer",
+  "orderType": "DINE_IN",
+  "paymentMethod": "QRIS",
+  "items": [
+    {
+      "productId": "43205ed8-5cb2-4e1f-831f-2b6bfb40feec",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "57b8ac98-24fb-4bed-89f9-1a267c1f5380",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "e38319f2-8a10-43c9-ae81-43eb7adc8df6",
+      "quantity": 1,
+      "notes": ""
+    }
+  ],
+  "discount": 0,
+  "offlineSyncAt": "2026-02-26T18:04:44.271Z"
+}
+Creating Order Payload: {
+  "localId": "168384e9-4386-4526-80b0-f86df0fe98e6",
+  "customerName": "Walk-in Customer",
+  "orderType": "DINE_IN",
+  "paymentMethod": "QRIS",
+  "items": [
+    {
+      "productId": "e38319f2-8a10-43c9-ae81-43eb7adc8df6",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "29745c6a-6e9d-466b-8215-e15622e55791",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "a993af2d-8952-4344-b565-107a43e2285b",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "3f800ae7-7715-44ec-af7c-a8f674668e23",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "1b238696-9375-4587-8714-f1013c92a73d",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "86b49ee8-ffc9-45bc-acdf-63b6aa72a801",
+      "quantity": 1,
+      "notes": ""
+    }
+  ],
+  "discount": 0,
+  "offlineSyncAt": "2026-02-26T18:09:22.363Z"
+}
+Creating Order Payload: {
+  "localId": "637fd6f5-b10f-42bc-861e-e168f657fe06",
+  "customerName": "Walk-in Customer",
+  "orderType": "DINE_IN",
+  "paymentMethod": "QRIS",
+  "items": [
+    {
+      "productId": "e38319f2-8a10-43c9-ae81-43eb7adc8df6",
+      "quantity": 2,
+      "notes": ""
+    },
+    {
+      "productId": "57b8ac98-24fb-4bed-89f9-1a267c1f5380",
+      "quantity": 1,
+      "notes": ""
+    }
+  ],
+  "discount": 0,
+  "offlineSyncAt": "2026-02-26T18:15:22.228Z"
+}
+Creating Order Payload: {
+  "localId": "efbc093b-fd7f-4107-84f1-b93d97b9c50f",
+  "customerName": "Walk-in Customer",
+  "orderType": "DINE_IN",
+  "paymentMethod": "QRIS",
+  "items": [
+    {
+      "productId": "e38319f2-8a10-43c9-ae81-43eb7adc8df6",
+      "quantity": 2,
+      "notes": ""
+    }
+  ],
+  "discount": 0,
+  "offlineSyncAt": "2026-02-26T18:23:26.713Z"
+}
+Creating Order Payload: {
+  "localId": "3265d3d8-ad9a-411c-bd41-b1e0dbe44cd2",
+  "customerName": "Walk-in Customer",
+  "orderType": "DINE_IN",
+  "paymentMethod": "QRIS",
+  "items": [
+    {
+      "productId": "43205ed8-5cb2-4e1f-831f-2b6bfb40feec",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "3f800ae7-7715-44ec-af7c-a8f674668e23",
+      "quantity": 2,
+      "notes": ""
+    },
+    {
+      "productId": "1b238696-9375-4587-8714-f1013c92a73d",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "a993af2d-8952-4344-b565-107a43e2285b",
+      "quantity": 3,
+      "notes": ""
+    },
+    {
+      "productId": "29745c6a-6e9d-466b-8215-e15622e55791",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "86b49ee8-ffc9-45bc-acdf-63b6aa72a801",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "57b8ac98-24fb-4bed-89f9-1a267c1f5380",
+      "quantity": 2,
+      "notes": ""
+    }
+  ],
+  "discount": 0,
+  "offlineSyncAt": "2026-02-26T18:23:56.845Z"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 300,
+  "unit": "porsi",
+  "minStock": 5,
+  "name": "Jengkol",
+  "description": "",
+  "price": 15000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/bRQ0CytP/jengkol.jpg"
+}
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 350,
+  "unit": "porsi",
+  "minStock": 5,
+  "name": "Kembang Paya",
+  "description": "",
+  "price": 10000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/Dfx9jcSp/kembangpaya.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 350,
+  "unit": "porsi",
+  "minStock": 5,
+  "name": "Pepes Ikan Mas/Peda/Kembung",
+  "description": "",
+  "price": 10000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/d0kyk80d/pepesikan.jpg"
+}
+GET /products called
+GET /products called
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 350,
+  "unit": "porsi",
+  "minStock": 5,
+  "name": "Tumis Jamur",
+  "description": "",
+  "price": 10000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/Fq8HL4y7/tumisjamur.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 350,
+  "unit": "porsi",
+  "minStock": 5,
+  "name": "Tumis Pare",
+  "description": "",
+  "price": 10000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/nqGs8Jd4/tumispare.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 350,
+  "unit": "porsi",
+  "minStock": 5,
+  "name": "Tumis Toge",
+  "description": "",
+  "price": 15000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/7tDX820r/tumistoge.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 500,
+  "unit": "pcs",
+  "minStock": 5,
+  "name": "Aqua Botol",
+  "description": "",
+  "price": 7000,
+  "categoryId": "001d722f-70d6-4bb7-9693-c3ebcfb5e443",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/Xkb9pQYt/aquabotol.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 500,
+  "unit": "gelas",
+  "minStock": 5,
+  "name": "Es Jeruk",
+  "description": "",
+  "price": 7000,
+  "categoryId": "936e79f7-ee33-4606-9c12-4f83eecba2a8",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/Rp4WHWFN/esjeruk.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 500,
+  "unit": "gelas",
+  "minStock": 5,
+  "name": "Es Teh Manis",
+  "description": "",
+  "price": 5000,
+  "categoryId": "001d722f-70d6-4bb7-9693-c3ebcfb5e443",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/svtTyW5n/estehmanis.jpg"
+}
+GET /products called
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 500,
+  "unit": "botol",
+  "minStock": 5,
+  "name": "Aqua Botol",
+  "description": "",
+  "price": 7000,
+  "categoryId": "001d722f-70d6-4bb7-9693-c3ebcfb5e443",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/Xkb9pQYt/aquabotol.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 500,
+  "unit": "gelas",
+  "minStock": 5,
+  "name": "Es Teh Tawar",
+  "description": "",
+  "price": 5000,
+  "categoryId": "001d722f-70d6-4bb7-9693-c3ebcfb5e443",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/svtTyW5n/estehmanis.jpg"
+}
+GET /products called
+createProductDto received: {
+  "cost": 0,
+  "quantity": 500,
+  "unit": "gelas",
+  "minStock": 5,
+  "name": "Jeruk Hangat",
+  "description": "",
+  "price": 7000,
+  "categoryId": "001d722f-70d6-4bb7-9693-c3ebcfb5e443",
+  "isAvailable": true,
+  "imageUrl": "https://i.ibb.co.com/XHL4h43/jerukhangat.jpg"
+}
+GET /products called
+Creating Order Payload: {
+  "localId": "88a18f6d-3984-416f-95f4-56da5bc76639",
+  "customerName": "Walk-in Customer",
+  "orderType": "DINE_IN",
+  "paymentMethod": "QRIS",
+  "items": [
+    {
+      "productId": "57b8ac98-24fb-4bed-89f9-1a267c1f5380",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "86b49ee8-ffc9-45bc-acdf-63b6aa72a801",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "3c9eb8b2-d66c-467c-a771-24e9c5fddfa5",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "1b238696-9375-4587-8714-f1013c92a73d",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "a993af2d-8952-4344-b565-107a43e2285b",
+      "quantity": 1,
+      "notes": ""
+    }
+  ],
+  "discount": 0,
+  "offlineSyncAt": "2026-02-26T18:45:18.079Z"
+}
+[32m[Nest] 12900  - [39m02/27/2026, 1:46:51 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient connected: A72C0w12DzzJr4zFAAAC[39m
+[32m[Nest] 12900  - [39m02/27/2026, 1:46:51 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient disconnected: A72C0w12DzzJr4zFAAAC[39m
+[32m[Nest] 12900  - [39m02/27/2026, 1:47:13 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient connected: ATL59gY6GBTMkRZhAAAF[39m
+[32m[Nest] 12900  - [39m02/27/2026, 1:47:13 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient disconnected: ATL59gY6GBTMkRZhAAAF[39m
+GET /products called
+GET /products called
+Creating Order Payload: {
+  "localId": "68e33e64-087d-4b84-8e9c-660cab392434",
+  "customerName": "Walk-in Customer",
+  "orderType": "DINE_IN",
+  "paymentMethod": "QRIS",
+  "items": [
+    {
+      "productId": "53162c01-f017-4340-9a5f-743d28eaf924",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "86b49ee8-ffc9-45bc-acdf-63b6aa72a801",
+      "quantity": 2,
+      "notes": ""
+    },
+    {
+      "productId": "57b8ac98-24fb-4bed-89f9-1a267c1f5380",
+      "quantity": 2,
+      "notes": ""
+    },
+    {
+      "productId": "3c9eb8b2-d66c-467c-a771-24e9c5fddfa5",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "1b238696-9375-4587-8714-f1013c92a73d",
+      "quantity": 2,
+      "notes": ""
+    }
+  ],
+  "discount": 0,
+  "offlineSyncAt": "2026-02-26T18:49:50.563Z"
+}
+GET /products called
+GET /products called
+[32m[Nest] 12900  - [39m02/27/2026, 1:55:24 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient connected: y2HLGRcpm_XPxWYkAAAJ[39m
+[32m[Nest] 12900  - [39m02/27/2026, 1:55:24 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient disconnected: y2HLGRcpm_XPxWYkAAAJ[39m
+[32m[Nest] 12900  - [39m02/27/2026, 1:55:34 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient connected: wD-5OWVFsDkcdO82AAAL[39m
+[32m[Nest] 12900  - [39m02/27/2026, 1:55:34 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient disconnected: wD-5OWVFsDkcdO82AAAL[39m
+Creating Order Payload: {
+  "localId": "974a24c1-cdf8-40da-8319-147a83984c6d",
+  "customerName": "Walk-in Customer",
+  "orderType": "DELIVERY",
+  "paymentMethod": "QRIS",
+  "items": [
+    {
+      "productId": "a993af2d-8952-4344-b565-107a43e2285b",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "15c5ed98-6efa-4448-b6a6-af867943eca1",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "3f800ae7-7715-44ec-af7c-a8f674668e23",
+      "quantity": 1,
+      "notes": ""
+    }
+  ],
+  "discount": 0,
+  "offlineSyncAt": "2026-02-26T19:02:02.273Z"
+}
+[32m[Nest] 12900  - [39m02/27/2026, 2:03:37 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient connected: dh2Zv0qfGgFSrXneAAAO[39m
+[32m[Nest] 12900  - [39m02/27/2026, 2:03:37 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient disconnected: dh2Zv0qfGgFSrXneAAAO[39m
+GET /products called
+[32m[Nest] 12900  - [39m02/27/2026, 3:31:41 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient connected: pKvK6JV_HRyJZQ6_AAAQ[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:31:42 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient disconnected: pKvK6JV_HRyJZQ6_AAAQ[39m
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+[32m[Nest] 12900  - [39m02/27/2026, 3:53:28 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient connected: RbM9mmGJUROkx2HkAAAU[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:53:42 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: ead3971d-4cc1-49b0-864c-3f9148e5b10b -> COOKING[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:53:44 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: e78b6fd1-0a5b-455c-bd17-c4a71b1380f5 -> COOKING[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:53:45 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: 0670beb7-c07c-4adb-9f23-4d509c4c03c9 -> COOKING[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:53:47 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: 4ffffd8e-3c47-4ae3-8dec-73f5decf4bc2 -> COOKING[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:53:48 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: 8312c163-71ac-4768-833a-0f4a76f13c89 -> COOKING[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:53:49 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: aa331cc4-3d99-4289-9bf2-e20d84206256 -> COOKING[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:53:50 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: 539d33ae-e378-4ddb-b09b-7c1b1b518dc5 -> COOKING[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:53:59 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient disconnected: RbM9mmGJUROkx2HkAAAU[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:54:24 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient connected: DXHD36G5nlzC3LkzAAAX[39m
+Creating Order Payload: {
+  "localId": "ef3b07d1-a0b0-4285-8cab-15ce36b770db",
+  "customerName": "Walk-in Customer",
+  "orderType": "DINE_IN",
+  "paymentMethod": "QRIS",
+  "items": [
+    {
+      "productId": "57b8ac98-24fb-4bed-89f9-1a267c1f5380",
+      "quantity": 3,
+      "notes": ""
+    },
+    {
+      "productId": "86b49ee8-ffc9-45bc-acdf-63b6aa72a801",
+      "quantity": 1,
+      "notes": ""
+    }
+  ],
+  "discount": 0,
+  "offlineSyncAt": "2026-02-26T20:55:37.481Z"
+}
+[32m[Nest] 12900  - [39m02/27/2026, 3:55:47 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient disconnected: DXHD36G5nlzC3LkzAAAX[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:55:47 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient connected: vLcbcuXZlFdZL3IPAAAa[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:30 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient disconnected: vLcbcuXZlFdZL3IPAAAa[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:31 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient connected: X_Oz5F86nUCsGSHOAAAd[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:34 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: 8312c163-71ac-4768-833a-0f4a76f13c89 -> DONE[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:34 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder completed: 8312c163-71ac-4768-833a-0f4a76f13c89[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:36 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: 4ffffd8e-3c47-4ae3-8dec-73f5decf4bc2 -> DONE[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:36 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder completed: 4ffffd8e-3c47-4ae3-8dec-73f5decf4bc2[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:37 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: aa331cc4-3d99-4289-9bf2-e20d84206256 -> DONE[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:37 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder completed: aa331cc4-3d99-4289-9bf2-e20d84206256[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:42 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: 0670beb7-c07c-4adb-9f23-4d509c4c03c9 -> DONE[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:42 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder completed: 0670beb7-c07c-4adb-9f23-4d509c4c03c9[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:43 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: e78b6fd1-0a5b-455c-bd17-c4a71b1380f5 -> DONE[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:43 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder completed: e78b6fd1-0a5b-455c-bd17-c4a71b1380f5[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:47 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: ead3971d-4cc1-49b0-864c-3f9148e5b10b -> DONE[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:47 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder completed: ead3971d-4cc1-49b0-864c-3f9148e5b10b[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:48 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder status updated: 539d33ae-e378-4ddb-b09b-7c1b1b518dc5 -> DONE[39m
+[32m[Nest] 12900  - [39m02/27/2026, 3:58:48 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mOrder completed: 539d33ae-e378-4ddb-b09b-7c1b1b518dc5[39m
+GET /products called
+Creating Order Payload: {
+  "localId": "216e3d88-38da-4a2f-9422-880435f99a5d",
+  "customerName": "Walk-in Customer",
+  "orderType": "DINE_IN",
+  "paymentMethod": "QRIS",
+  "items": [
+    {
+      "productId": "29745c6a-6e9d-466b-8215-e15622e55791",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "3f800ae7-7715-44ec-af7c-a8f674668e23",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "productId": "15c5ed98-6efa-4448-b6a6-af867943eca1",
+      "quantity": 1,
+      "notes": ""
+    }
+  ],
+  "discount": 0,
+  "offlineSyncAt": "2026-02-26T21:21:45.509Z"
+}
+GET /products called
+GET /products called
+GET /products called
+GET /products called
+[32m[Nest] 12900  - [39m02/27/2026, 5:25:37 AM [32m    LOG[39m [38;5;3m[KitchenGateway] [39m[32mClient disconnected: X_Oz5F86nUCsGSHOAAAd[39m

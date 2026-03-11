@@ -1,0 +1,12 @@
+==========================================
+  Setup PostgreSQL + Seed Cimahi POS
+==========================================
+
+Step 1: Inisialisasi PostgreSQL data directory...
+sudo: timed out reading password
+sudo: a password is required
+⚠️  Sudah diinisialisasi sebelumnya, lanjut...
+
+Step 2: Start PostgreSQL service...
+sudo: timed out reading password
+sudo: a password is required

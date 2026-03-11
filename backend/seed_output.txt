@@ -1,0 +1,21 @@
+
+> cimahi-pos-backend@1.0.0 prisma:seed
+> ts-node prisma/seed.ts
+
+🌱 Starting database seed...
+✅ Users created
+✅ Categories created
+✅ Products and stocks created
+
+📋 Seed Summary:
+==================
+👤 Users:
+   - Owner: owner@cimahipos.com / owner123
+   - Admin: admin@cimahipos.com / admin123
+   - Kasir: kasir@cimahipos.com / cashier123
+
+📦 Categories: 3 (Makanan, Minuman, Snack)
+🍽️  Products: 8
+📊 Stocks: 8
+
+✅ Database seeded successfully!
