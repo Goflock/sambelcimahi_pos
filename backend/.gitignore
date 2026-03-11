@@ -20,5 +20,5 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Prisma
-prisma/migrations/
+# Prisma - JANGAN ignore migrations! Railway butuh file ini untuk deploy
+# prisma/migrations/  <-- dihapus agar bisa di-push ke GitHub
